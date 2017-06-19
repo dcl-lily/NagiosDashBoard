@@ -44,7 +44,7 @@ $().ready(function(){
 
 function bodyload()
 {
-	watermark({watermark_txt:'TMCI经销店业务系统监控' + " "+getNowFormatDate()});
+	watermark({watermark_txt:'Nagios-中文 http://www.qnjslm.com' + " "+getNowFormatDate()});
 	
 }
 
