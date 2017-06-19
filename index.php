@@ -1,6 +1,6 @@
 <?php 
     $refreshvalue = 30; //value in seconds to refresh page
-    $pagetitle = "TMCI-监控展示页面";
+    $pagetitle = "Nagios-监控展示页面";
 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
