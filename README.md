@@ -7,7 +7,12 @@ NagiosDashBoard-Nagios监控展示页面
 
   首先修改13行的用户名密码 root是连接数据的用户名，123.com是连接数据的密码，修改成自己的
   
+      $con = mysql_connect("localhost", "root", "123.com") or die("<h3><font color=red>不能连接到数据库!</font></h3>");
+
+  
   修改19行的数据，nagiosndo 你的NDO数据保存的数据库名
+  
+      $db = mysql_select_db("nagiosndo", $con);
  
 2、修改index.php文件
     
@@ -26,5 +31,5 @@ NagiosDashBoard-Nagios监控展示页面
     
 效果
 
-![image](https://github.com/dcl_lily/NagiosDashBoard/raw/master/demo.jpg)
+![image](https://github.com/dcl-lily/NagiosDashBoard/raw/master/demo.jpg)
 
